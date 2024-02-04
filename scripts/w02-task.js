@@ -36,10 +36,10 @@ window.onload = () => {
 
     const favFoods = []
 
-    favFoods.push('pancake,Pizza,Burguer,bread')
+    favFoods.push('Pancake,Pizza,Burguer,Bread')
     Foods(favFoods)
 
-    let newfavFoods = 'rice,beans,ice cream,apples,'
+    let newfavFoods = 'Rice,Beans,Ice Cream,Apples,'
 
     favFoods.push(newfavFoods)
     Foods(favFoods) 
@@ -47,13 +47,13 @@ window.onload = () => {
     favFoods.pop();
     Foods(favFoods)
 
-    favFoods.push('pancake,Pizza,Burguer,bread')
+    favFoods.push('Pancake,Pizza,Burguer,Bread')
     Foods(favFoods)
 
     favFoods.shift()
     Foods(favFoods)
 
-    newfavFoods = 'rice,beans,ice cream,apples,'
+    newfavFoods = 'Rice,Beans,Ice Cream,Apples,'
 
     favFoods.push(newfavFoods)
     Foods(favFoods)
